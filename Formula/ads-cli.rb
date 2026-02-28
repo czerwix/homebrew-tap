@@ -1,16 +1,16 @@
 class AdsCli < Formula
   desc "CLI for searching and working with Google Docs"
   homepage "https://github.com/czerwix/ads-cli"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/czerwix/ads-cli/releases/download/v#{version}/ads-macos-arm64.tar.gz"
-      sha256 "b840eab09526e882f3c93e8996231f1d304ba623b6bba1e8f37193dc2e9c7c75"
+      sha256 "163a87a8abf5f4e925a9f67957eb89d43bee517238e5c87fbcff0c545f999a5b"
     else
       url "https://github.com/czerwix/ads-cli/releases/download/v#{version}/ads-macos-x86_64.tar.gz"
-      sha256 "2fdcc693c2f3d992c55ffb65404c78bb76549827f7cdb4b9c0520d633cbd0d39"
+      sha256 "81a8ba64dabf61b04fa5becc4345a24f491540508bfe0167f413a69ee17c03f1"
     end
   end
 
